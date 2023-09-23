@@ -25,5 +25,5 @@ func countWays(n: Int, steps: [Int]) -> Int {
 }
 
 print("The number of different combinations is \(countWays(n: 3, steps: [0, 1, 0]))")
-print("The number of different combinations is \(countWays(n: 4, steps: [0, 1, 1, 0]))") // The answer to this example is not correctly given in the condition. The answer to this example is 1, not 0
+print("The number of different combinations is \(countWays(n: 4, steps: [0, 1, 1, 0]))") 
 print("The number of different combinations is \(countWays(n: 5, steps: [1, 1, 0, 1, 1]))")
